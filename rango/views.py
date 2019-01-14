@@ -14,6 +14,6 @@ def index(request):
 
 
 def about(request):
-    context_dict = {'name': "Josep Perna Montané"}
+    context_dict = {'name': "Josep Perna Montane"}
     return render(request, 'rango/about.html', context=context_dict)
 
